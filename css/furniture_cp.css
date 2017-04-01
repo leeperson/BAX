@@ -1,0 +1,421 @@
+@charset "utf-8";
+*{
+	font-family: 'Microsoft Yahei';
+	margin:0;
+	padding: 0;
+	list-style:none;
+	text-decoration: none;
+	box-sizing:border-box;
+}
+.top{
+	width: 100%;
+	height: 40px;
+	background: #000;
+	border-top:2px solid #00925f;
+}
+.top-nav{
+	width: 1120px;
+	height: 40px;
+	margin: 0 auto;
+}
+.top-nav ul{
+	width: 286px;
+	height: 40px;
+	line-height: 40px;
+	float: right;
+}
+.top-nav ul li{
+	float: left;
+	border-right: 1px solid #727272;
+}
+.top-nav ul li:last-child{
+	border-right:none;
+}
+.top-nav ul li a{
+	font-size: 12px;
+	color: #cdcdcd;
+}
+.logo{
+	width: 100%;
+	height: 80px;
+}
+.nav{
+	width: 1120px;
+	height: 80px;
+	margin:0 auto;
+}
+.nav-l{
+	width: 103px;
+	height: 80px;
+	float: left;
+	margin-right: 440px;
+}
+.nav-l img{
+	margin-top: 22px;
+}
+.nav-r{
+	width: 560px;
+	height: 80px;
+	float: left;
+}
+.nav-r ul li{
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	float: left;
+}
+.nav-r ul li a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	font-size: 14px;
+}
+.nav-r ul li a:hover{
+	background: #00925f;
+	color: #fff;
+}
+.nav-r ul li:nth-child(3) a{
+	color: #00925f;
+}
+.banner{
+	width:100%;
+	height:600px;
+	background:url('../bax/cpbanner.jpg') center center no-repeat;
+	background-size: cover;
+}
+.main{
+	width: 100%;
+	background:#f6f6f6; 
+	padding-top: 40px;
+}
+.menu{
+	width: 1120px;
+	height: 106px;
+	margin: 0 auto;
+	background:#fff;
+}
+.menu-text{
+	width: 954px;
+	height: 106px;
+	margin: 0 auto;
+	padding-top: 12px;
+}
+.menu-text h3{
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 14px;
+}
+.menu-text h3 span{
+	font-size: 12px;
+	color: #8e8d91;
+	font-weight: bold;
+}
+.menu-text ul li{
+	float: left;
+	margin-right: 20px;
+}
+.menu-text ul li a{
+	font-size: 12px;
+	color: #454b51;
+	font-weight: bold;
+}
+.menu-text ul li:first-child a{
+	display: block;
+	width: 34px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	color: #fff;
+	background:#00925f;
+}
+.menu-text ul li:last-child{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.all{
+	width: 1120px;
+	height: 800px;
+	margin:0 auto;
+}
+.all p{
+	width: 1120px;
+	height: 56px;
+	line-height: 56px;
+	font-size: 16px;
+	color: #333;
+}
+.all p img{
+	margin-right: 10px;
+}
+.goods ul li .a1 img{
+	width: 355px;
+	height: 267px;
+}
+.goods ul li{
+	width: 355px;
+	height: 350px;
+	list-style: none;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 5px;
+} 
+.goods ul li .a1 .divA{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 434px;
+	height: 80px;
+	padding: 10px 20px;
+	background: #fafafa;
+}
+.goods ul li .a1 .divA>.p1{
+	width: 312px;
+	height: 25px;
+	font-size: 18px;
+    line-height: 25px;
+    color: #666;
+}
+.goods ul li .a1 .divA>.p2{
+	width: 312px;
+	height: 21px;
+    font-size: 14px;
+    color: #b4b4b4;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.goods ul li .a1 .divA>.p3{
+	position: absolute;
+	right: 0;
+	bottom: 12px;
+	width: 108px;
+	height: 28px;
+	color: #f60;
+}
+.goods ul li .a1 .divA>.p3>span{
+	font-size: 24px;
+	font-weight:800;
+}
+/*遮罩*/
+.goods ul li .a2{
+	position: absolute;
+	top: 0;
+	left:-474px;
+	width: 355px;
+	height: 267px;
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.5);
+	transition: all 0.2s;  
+} 
+.goods ul li .a2 .p4{
+	width: 355px;
+	text-align: center;
+	position: absolute;
+	top: 34px;
+	left: -474px;
+	color: #ffe605;
+	font-size: 24px;
+    font-weight: bold;
+    transition: all 0.2s 0.1s ease-out ;  
+}
+.goods ul li .a2 .p5{
+	width: 355px;
+	text-align: center;
+	line-height:20px ;
+	position: absolute;
+	top: 65px;
+	left: -474px;
+	margin: 30px  0 10px;
+	font-size: 14px;
+    color: white;
+    transition: all 0.2s 0.2s ease-out ;  
+}
+.goods ul li .a2 .p6{
+	position: absolute;
+	top: 140px;
+	left: 175px;
+	transform: scale(1.4);
+	transition: all 0.3s 0.2s ;
+}
+.goods ul li .a2 .p6 span{
+	font-family: Arial;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+.goods ul li .a2 .p7{
+	position: absolute;
+	bottom:-50px;
+	left: 100px;
+	width: 160px;
+	height: 38px;
+	line-height: 38px;
+	border-radius: 20px;
+	margin: 10px auto;
+	border: 1px solid;
+	transition: all 0.2s 0.5s ;
+}
+    
+
+.serv{
+	width: 1120px;
+	height: 126px;
+	margin: 0 auto;
+}
+.serv ul li{
+	width: 196px;
+	height: 72px;
+	float: left;
+	margin-top: 42px;
+	margin-right: 110px;
+}
+.serv ul li a{
+	display: block;
+}
+.serv ul li img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+}
+.serv ul li:last-child{
+	margin-right: 0;
+}
+.serv ul li p{
+	width: 132px;
+	height: 40px;
+	float: left;
+}
+.serv ul li p span{
+	font-size: 12px;
+	color: #a8a8a8;
+}
+.serv ul li p span:first-child{
+	font-size: 16px;
+	color: #333;
+}
+.hr{
+	width: 100%;
+	height: 2px;
+	background: #ececec;
+}
+.contact{
+	width: 1120px;
+	height: 240px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+.c1{
+	width: 110px;
+	height: 145px;
+	float: left;
+	margin-right: 76px;
+}
+.c1 p,
+.c2 h4{
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.c1 p,
+.c2 h4:hover{
+	color:#00925f;
+}
+.c1 ul li{
+	list-style-type:square;
+	list-style:inside;
+	margin-bottom: 6px;
+}
+.c1 ul li a{
+	font-size: 12px;
+	color: #70727c;
+}
+.c1 ul li a:hover{
+	color:#00925f;
+}
+.c11 ul li{
+	list-style:none;
+}
+.c11{
+	margin-right: 0;
+}
+.c11 ul li img{
+	margin-right: 6px;
+}
+.c2{
+	width: 200px;
+	height: 160px;
+	float: left;
+}
+.tel img,
+.tel p{
+	float: left;
+}
+.tel img{
+	margin-right: 10px;
+}
+.tel img+p{
+	font-size: 18px;
+	color: #00925f;
+	font-weight: bold;
+}
+.tel p.time{
+	font-size: 12px;
+	color: #333;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.tel{
+	width: 200px;
+	height: 60px;
+}
+.footer{
+	width: 100%;
+	height: 70px;
+	background:#2b2b2b;
+	border-top: 6px solid #000;
+}
+.foot{
+	width: 1120px;
+	height: 70px;
+	margin:0 auto;
+}
+.footer-l{
+	width: 520px;
+	height: 70px;
+	line-height: 70px;
+	float: left;
+}
+.footer-l h2{
+	font-size: 24px;
+	color: #fffefe;
+	float: left;
+	font-weight: bold;
+}
+.footer-l p{
+	font-size: 12px;
+	color: #fffefe;
+	float: right;
+}
+.footer-r{
+	width: 430px;
+	height: 70px;
+	float: right;
+}
+.footer-r ul li{
+	width: 80px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	float:left;
+}
+.footer-r ul li a{
+	font-size: 12px;
+	color: #fffefe;
+}
